@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+    <title>博客发布</title>
+</head>
+<body>
+<div class="content">
+    <h1 style="text-align: center; font-size: 50px;color: khaki">发布博客</h1>
+    <div class="row">
+        <div class="col-12">
+            <form method="post" action="/post/" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="">标题</label>
+                    <input name="title" type="text" class="form-control" id="" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="">作者</label>
+                    <input name="author" type="text" class="form-control" id="" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="">图片</label>
+                    <input name="image" type="text" class="form-control" id="" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="" style="margin-top: -10px">内容</label>
+                    <textarea class="form-control" id="" cols="30" rows="10" name="content"></textarea>
+                </div>
+                <div class="btn_sb1">
+                    <button type="submit" class="btn_sb">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

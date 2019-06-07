@@ -1,0 +1,64 @@
+.header{
+    width: 1520px;
+    height: 200px;
+}
+
+.header_img{
+    width: 1520px;
+    height:200px;
+}
+
+.header_title{
+    font-size: 80px;
+    text-shadow: 5px 5px 5px #FF0000;
+    margin-top: -150px;
+    text-align: right;
+    margin-right: 30px;
+    font-family: 华文行楷;
+
+}
+
+.left_content{
+    margin-top:5px;
+    width: 1100px;
+    height: auto;
+    float: left;
+
+}
+
+.right_content{
+    margin-top: 5px;
+    width: 415px;
+    height: auto;
+    float: right;
+}
+
+.content{
+    background-color: #b2dba1;
+    height: 700px;
+
+}
+.form-group{
+    text-align: center;
+
+}
+
+.form-control{
+    width: 600px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.btn_sb{
+
+    text-align: center;
+    width: 200px;
+    background-color: cornflowerblue;
+}
+.btn_sb1{
+    text-align: center;
+}
+
+
+
